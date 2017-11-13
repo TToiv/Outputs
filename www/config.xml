@@ -21,7 +21,7 @@
 	
 	<access origin="*"/>
    	<plugin name="cordova-plugin-whitelist" version="1" />
-    <plugin name="https://github.com/apache/cordova-plugin-dialogs" spec="~1" />
-    <plugin name="https://github.com/apache/cordova-plugin-vibration" spec="~1" />
-    <plugin name="https://github.com/leecrossley/cordova-plugin-shake" spec="~1" />
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-vibration" />
+    <plugin name="cordova-plugin-shake" />
 </widget>

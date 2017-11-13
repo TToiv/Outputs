@@ -1,13 +1,17 @@
 $(document).on("pagecreate","#pageone",function(){
   $('#submitButton').on("click", function(){
-    submitText();
+    submitButton();
   });            
 });            
 
+
 function random() {
-return !Math.round(Math.random());
+    return !Math.round(Math.random());
 }
 
-function storeValue(key, value) {
-	//add some code to store the key-value pair in persistant storage 
+function submitButton() {
+    
+    var value = random();
+    
+    alert(value);
 }
