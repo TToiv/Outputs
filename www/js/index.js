@@ -14,4 +14,22 @@ function submitButton() {
     var value = random();
     
     alert(value);
+    
+    
+    
+    if(value) { 
+        
+
+        navigator.notification.beep(1); //beep once
+    
+    }
+    
+    else { 
+        navigator.notification.beep(2); //beep twice
+
+    } 
+        
+    
+    
 }
+
