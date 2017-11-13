@@ -19,11 +19,13 @@ function submitButton() {
     if(value) { 
         
         navigator.notification.beep(1); //beep once
+        navigator.vibrate([200, 300, 500]);
     
     }
     
     else { 
         navigator.notification.beep(2); //beep twice
+        navigator.vibrate([400, 600, 1000]);
 
     } 
     
