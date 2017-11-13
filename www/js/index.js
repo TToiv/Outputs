@@ -4,10 +4,8 @@ $(document).on("pagecreate","#pageone",function(){
   });            
 });            
 
-
-function submitText() {
-	var text = $('#textinput').val();
-	alert(text);
+function random() {
+return !Math.round(Math.random());
 }
 
 function storeValue(key, value) {
