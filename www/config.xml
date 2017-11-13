@@ -5,10 +5,10 @@
         id        = "mob.app.dev.nav"
         version   = "1.0.0">
 
-    <name>Text input app</name>
+    <name>Output app</name>
 
     <description>
-        A sample application about text input inside the app.
+        A sample application about output of the app.
     </description>
 
     <author href="worcester.ac.uk" email="c.bowers@worc.ac.uk">
@@ -21,4 +21,7 @@
 	
 	<access origin="*"/>
    	<plugin name="cordova-plugin-whitelist" version="1" />
+    <plugin name="https://github.com/apache/cordova-plugin-dialogs" spec="~1" />
+    <plugin name="https://github.com/apache/cordova-plugin-vibration" spec="~1" />
+    <plugin name="https://github.com/leecrossley/cordova-plugin-shake" spec="~1" />
 </widget>
